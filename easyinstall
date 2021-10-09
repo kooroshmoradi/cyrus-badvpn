@@ -24,7 +24,7 @@ clear
 fi
 echo -e "\033[1;31m           Instalador Badvpn\n\033[0m"
 echo -e "Descargando Badvpn"
-wget -O /bin/badvpn-udpgw https://raw.githubusercontent.com/powermx/badvpn/master/badvpn-udpgw &>/dev/null
+wget -O /bin/badvpn-udpgw https://raw.githubusercontent.com/kooroshmoradi/cyrus-badvpn/main/badvpn-udpgw &>/dev/null
 chmod +x /bin/badvpn-udpgw
 echo -e "\033[1;32m             Instalacion completa\033[0m" 
 echo -e "\033[1;37mComandos:\n\033[1;31mbadvpn start\033[1;37m para iniciar badvpn"
